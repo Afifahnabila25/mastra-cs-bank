@@ -1,0 +1,25 @@
+{
+  "name": "belajar-mastra",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "mastra dev",
+    "build": "mastra build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^26.6.7",
+    "@types/papaparse": "^5.5.2",
+    "mastra": "^1.40.2",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "@mastra/core": "^1.86.0",
+    "papaparse": "^5.7.1",
+    "zod": "^4.6.7"
+  }
+}
